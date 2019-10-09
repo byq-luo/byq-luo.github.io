@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>机器学习@智慧交通</title>
+  
+  <subtitle>欢迎访问！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://byq-luo.github.io/"/>
+  <updated>2019-09-06T07:28:49.911Z</updated>
+  <id>https://byq-luo.github.io/</id>
+  
+  <author>
+    <name>luozb</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>内嵌视频测试！</title>
+    <link href="https://byq-luo.github.io/2019/09/06/sp/"/>
+    <id>https://byq-luo.github.io/2019/09/06/sp/</id>
+    <published>2019-09-06T03:56:43.000Z</published>
+    <updated>2019-09-06T07:28:49.911Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;视频测试&quot;&gt;&lt;a href=&quot;#视频测试&quot; class=&quot;headerlink&quot; title=&quot;视频测试&quot;&gt;&lt;/a&gt;视频测试&lt;/h1&gt;&lt;div id=&quot;dplayer0&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="github" scheme="https://byq-luo.github.io/categories/github/"/>
+    
+    
+      <category term="Pandas" scheme="https://byq-luo.github.io/tags/Pandas/"/>
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="Matplotlib" scheme="https://byq-luo.github.io/tags/Matplotlib/"/>
+    
+      <category term="Seaborn" scheme="https://byq-luo.github.io/tags/Seaborn/"/>
+    
+      <category term="Plotly" scheme="https://byq-luo.github.io/tags/Plotly/"/>
+    
+      <category term="Pyecharts" scheme="https://byq-luo.github.io/tags/Pyecharts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>充气娃娃什么感觉？Python告诉你</title>
+    <link href="https://byq-luo.github.io/2019/09/04/chong-qi-wa-wa-shi-me-gan-jue-python-gao-su-ni/"/>
+    <id>https://byq-luo.github.io/2019/09/04/chong-qi-wa-wa-shi-me-gan-jue-python-gao-su-ni/</id>
+    <published>2019-09-04T03:11:00.000Z</published>
+    <updated>2019-09-05T03:04:49.525Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;充气娃娃什么感觉？Python告诉你&quot;&gt;&lt;a href=&quot;#充气娃娃什么感觉？Python告诉你&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="spyder" scheme="https://byq-luo.github.io/categories/spyder/"/>
+    
+    
+      <category term="scrapy" scheme="https://byq-luo.github.io/tags/scrapy/"/>
+    
+      <category term="python" scheme="https://byq-luo.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>14张思维导图，教你构建 Python核心知识体系！</title>
+    <link href="https://byq-luo.github.io/2019/08/28/14-zhang-si-wei-dao-tu-jiao-ni-gou-jian-python-he-xin-zhi-shi-ti-xi/"/>
+    <id>https://byq-luo.github.io/2019/08/28/14-zhang-si-wei-dao-tu-jiao-ni-gou-jian-python-he-xin-zhi-shi-ti-xi/</id>
+    <published>2019-08-28T08:08:00.000Z</published>
+    <updated>2019-08-30T01:11:37.224Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;转-14张思维导图，教你构建-Python核心知识体系！&quot;&gt;&lt;a href=&quot;#转-14张思维导图，教你构建-Python核心知识体系！&quot; class=&quot;headerlink&quot; title=&quot;[转]14张思维导图，教你构建
+        
+      
+    
+    </summary>
+    
+      <category term="python体系" scheme="https://byq-luo.github.io/categories/python%E4%BD%93%E7%B3%BB/"/>
+    
+    
+      <category term="Pandas" scheme="https://byq-luo.github.io/tags/Pandas/"/>
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>交通预测新视角 - 基于 GCN 的出租车 OD 需求预测</title>
+    <link href="https://byq-luo.github.io/2019/08/26/jiao-tong-yu-ce-xin-shi-jiao-ji-yu-gcn-de-chu-zu-che-od-xu-qiu-yu-ce/"/>
+    <id>https://byq-luo.github.io/2019/08/26/jiao-tong-yu-ce-xin-shi-jiao-ji-yu-gcn-de-chu-zu-che-od-xu-qiu-yu-ce/</id>
+    <published>2019-08-26T06:51:00.000Z</published>
+    <updated>2019-09-05T03:05:02.828Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;本文由 &lt;a href=&quot;http://ksria.com/simpread/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;简悦 SimpRead&lt;/a&gt; 转码， 原文地址 &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="机器学习" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="算法" scheme="https://byq-luo.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Traffic" scheme="https://byq-luo.github.io/tags/Traffic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>来! 一起捋一捋机器学习分类算法</title>
+    <link href="https://byq-luo.github.io/2019/08/23/ji-qi-xue-xi-fen-lei-suan-fa/"/>
+    <id>https://byq-luo.github.io/2019/08/23/ji-qi-xue-xi-fen-lei-suan-fa/</id>
+    <published>2019-08-23T01:00:00.000Z</published>
+    <updated>2019-08-23T01:02:14.558Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;本文由 &lt;a href=&quot;http://ksria.com/simpread/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;简悦 SimpRead&lt;/a&gt; 转码， 原文地址 &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="机器学习" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="算法" scheme="https://byq-luo.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>matplotlib绘图</title>
+    <link href="https://byq-luo.github.io/2019/08/23/matplotlib-hui-tu/"/>
+    <id>https://byq-luo.github.io/2019/08/23/matplotlib-hui-tu/</id>
+    <published>2019-08-23T00:00:00.000Z</published>
+    <updated>2019-08-23T00:04:28.066Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;#-*- coding: utf-8
+        
+      
+    
+    </summary>
+    
+      <category term="python绘图" scheme="https://byq-luo.github.io/categories/python%E7%BB%98%E5%9B%BE/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="Matplotlib" scheme="https://byq-luo.github.io/tags/Matplotlib/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ts</title>
+    <link href="https://byq-luo.github.io/2019/08/21/ts/"/>
+    <id>https://byq-luo.github.io/2019/08/21/ts/</id>
+    <published>2019-08-21T09:15:56.000Z</published>
+    <updated>2019-08-21T13:23:34.663Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;About-Keras-models&quot;&gt;&lt;a href=&quot;#About-Keras-models&quot; class=&quot;headerlink&quot; title=&quot;About Keras models&quot;&gt;&lt;/a&gt;About Keras models&lt;/h1&gt;&lt;p&gt;There
+        
+      
+    
+    </summary>
+    
+      <category term="机器学习" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="Keras" scheme="https://byq-luo.github.io/tags/Keras/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 基础学习记录</title>
+    <link href="https://byq-luo.github.io/2019/08/21/test3/"/>
+    <id>https://byq-luo.github.io/2019/08/21/test3/</id>
+    <published>2019-08-21T08:21:00.000Z</published>
+    <updated>2019-08-21T13:23:22.776Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Traffic-Counter&quot;&gt;&lt;a href=&quot;#Python-Traffic-Counter&quot; class=&quot;headerlink&quot; title=&quot;Python Traffic Counter&quot;&gt;&lt;/a&gt;Python Traffic
+        
+      
+    
+    </summary>
+    
+      <category term="python基础" scheme="https://byq-luo.github.io/categories/python%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="Markdown" scheme="https://byq-luo.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>About Keras models</title>
+    <link href="https://byq-luo.github.io/2019/08/21/test2/"/>
+    <id>https://byq-luo.github.io/2019/08/21/test2/</id>
+    <published>2019-08-21T01:30:00.000Z</published>
+    <updated>2019-08-21T13:23:11.726Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;About-Keras-models&quot;&gt;&lt;a href=&quot;#About-Keras-models&quot; class=&quot;headerlink&quot; title=&quot;About Keras models&quot;&gt;&lt;/a&gt;About Keras models&lt;/h1&gt;&lt;p&gt;There
+        
+      
+    
+    </summary>
+    
+      <category term="机器学习" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="Keras" scheme="https://byq-luo.github.io/tags/Keras/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XGBOOST introduction</title>
+    <link href="https://byq-luo.github.io/2019/08/21/test/"/>
+    <id>https://byq-luo.github.io/2019/08/21/test/</id>
+    <published>2019-08-21T01:25:00.000Z</published>
+    <updated>2019-08-21T13:22:56.078Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Awesome-XGBoost&quot;&gt;&lt;a href=&quot;#Awesome-XGBoost&quot; class=&quot;headerlink&quot; title=&quot;Awesome XGBoost&quot;&gt;&lt;/a&gt;Awesome XGBoost&lt;/h1&gt;&lt;p&gt;This page
+        
+      
+    
+    </summary>
+    
+      <category term="机器学习" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="XGBoost" scheme="https://byq-luo.github.io/tags/XGBoost/"/>
+    
+  </entry>
+  
+</feed>
