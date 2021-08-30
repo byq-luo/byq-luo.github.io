@@ -38,11 +38,11 @@
       <category term="github" scheme="https://luozhongbin.coding.me/categories/github/"/>
     
     
-      <category term="Matplotlib" scheme="https://luozhongbin.coding.me/tags/Matplotlib/"/>
+      <category term="Pandas" scheme="https://luozhongbin.coding.me/tags/Pandas/"/>
     
       <category term="Python" scheme="https://luozhongbin.coding.me/tags/Python/"/>
     
-      <category term="Pandas" scheme="https://luozhongbin.coding.me/tags/Pandas/"/>
+      <category term="Matplotlib" scheme="https://luozhongbin.coding.me/tags/Matplotlib/"/>
     
       <category term="Seaborn" scheme="https://luozhongbin.coding.me/tags/Seaborn/"/>
     
@@ -102,9 +102,9 @@
       <category term="python体系" scheme="https://luozhongbin.coding.me/categories/python%E4%BD%93%E7%B3%BB/"/>
     
     
-      <category term="Python" scheme="https://luozhongbin.coding.me/tags/Python/"/>
-    
       <category term="Pandas" scheme="https://luozhongbin.coding.me/tags/Pandas/"/>
+    
+      <category term="Python" scheme="https://luozhongbin.coding.me/tags/Python/"/>
     
   </entry>
   
@@ -190,9 +190,9 @@
       <category term="python绘图" scheme="https://luozhongbin.coding.me/categories/python%E7%BB%98%E5%9B%BE/"/>
     
     
-      <category term="Matplotlib" scheme="https://luozhongbin.coding.me/tags/Matplotlib/"/>
-    
       <category term="Python" scheme="https://luozhongbin.coding.me/tags/Python/"/>
+    
+      <category term="Matplotlib" scheme="https://luozhongbin.coding.me/tags/Matplotlib/"/>
     
   </entry>
   
