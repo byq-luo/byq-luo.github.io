@@ -707,7 +707,7 @@ Single Shot Detector ">
 <li><strong>You Only Look Once (YOLO)系列，其中YOLOv3是今天的主角</strong></li>
 </ol>
 <p>下面来简单说一下这些模型，SSD这里就不介绍了，感兴趣的话可自行去了解。</p>
-<h5 id="R-CNN系列"><a href="#R-CNN系列" class="headerlink" title="R-CNN系列"></a>R-CNN系列</h5><h5 id="Faster-R-CNN的基本原理"><a href="#Faster-R-CNN的基本原理" class="headerlink" title="Faster R-CNN的基本原理"></a>Faster R-CNN的基本原理</h5><p><img src="/.io//H:%5Chexo2%5Cblog%5Csource%5Cimages%5Cmubiao.png" alt="mubiao"></p>
+<h5 id="R-CNN系列"><a href="#R-CNN系列" class="headerlink" title="R-CNN系列"></a>R-CNN系列</h5><h5 id="Faster-R-CNN的基本原理"><a href="#Faster-R-CNN的基本原理" class="headerlink" title="Faster R-CNN的基本原理"></a>Faster R-CNN的基本原理</h5><p><img src="/images/yolo/mubiao.png" alt="mubiao"></p>
 <p>上图是Faster R-CNN模型的原理简图，技术细节可参考下面所提及的相关文章。</p>
 <p>R-CNN系列的演化路径为：R-CNN → Fast R-CNN → Faster R-CNN</p>
 <p>R-CNN 是第一个基于深度学习的目标检测模型，它属于<strong>two-stage</strong>方法，即将物体识别和物体定位分为两个步骤，分别完成。 详情见Girshick等人的第一篇相关文章：<a href="https://arxiv.org/abs/1311.2524，其原理大概为：(1)" target="_blank" rel="noopener">https://arxiv.org/abs/1311.2524，其原理大概为：(1)</a> 预先找出图中物体可能出现的位置，即候选区域 (Region Proposal) 。利用图像中的纹理、边缘、颜色等信息，可以保证在选取较少窗口 (几千甚至几百) 的情况下保持较高的召回率 (Recall) 。(2) 然后将这些候选框送入CNN网络中进行识别分类。</p>
@@ -715,7 +715,7 @@ Single Shot Detector ">
 <p>Girshick等人于2015年发表了第二篇论文 <strong>Fast R-CNN</strong>，链接为：<a href="https://arxiv.org/abs/1504.08083。相对R-CNN，Fast" target="_blank" rel="noopener">https://arxiv.org/abs/1504.08083。相对R-CNN，Fast</a> R-CNN算法有了很大改进，即提高了精确度，并减少了执行前向网络计算所需的时间；然而，该模型仍然依赖于外部的候选框算法。</p>
 <p>直到2015年的后续模型 <strong>Faster R-CNN</strong> 的出现，链接为：<a href="https://arxiv.org/abs/1506.01497。通过使用区域生成网络" target="_blank" rel="noopener">https://arxiv.org/abs/1506.01497。通过使用区域生成网络</a> (Region Proposal Network, RPN)来取代候选框算法，Faster R-CNN 最终成为真正的端到端目标检测器。</p>
 <p>虽然R-CNN系列的精确度不断提高，但是R-CNN系列最大的问题是它的速度，即使使用GPU也只能达到5 FPS..</p>
-<h2 id="YOLO"><a href="#YOLO" class="headerlink" title="YOLO"></a>YOLO</h2><p><img src="/.io//H:%5Chexo2%5Cblog%5Csource%5Cimages%5CYOLO.png" alt="YOLO"></p>
+<h2 id="YOLO"><a href="#YOLO" class="headerlink" title="YOLO"></a>YOLO</h2><p><img src="/images/yolo/YOLO.png" alt="YOLO"></p>
 <p>上图是YOLO模型的原理简图，技术细节可参考下面所提及的相关文章，YOLO官网为：<a href="https://pjreddie.com/darknet/yolo/。" target="_blank" rel="noopener">https://pjreddie.com/darknet/yolo/。</a></p>
 <p>为了提高基于深度学习的目标检测器的速度，SSD和YOLO都使用了<strong>one-stage</strong>策略。</p>
 <p>这些算法将目标检测作为一个回归问题，对于给定的输入图像，同时给出边界框位置以及相应的类别。</p>
@@ -849,7 +849,7 @@ pathOut <span class="token operator">=</span> <span class="token string">'./resu
 yolo_detect<span class="token punctuation">(</span>pathIn<span class="token punctuation">,</span>pathOut<span class="token punctuation">)</span>
 <span class="token operator">>></span><span class="token operator">></span> 从硬盘加载YOLO<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
 <span class="token operator">>></span><span class="token operator">></span> YOLO模型花费 <span class="token number">3.75</span> 秒来预测一张图片</code></pre>
-<p><img src="/.io//H:%5Chexo2%5Cblog%5Csource%5Cimages%5CK12500.JPG" alt="K12500"></p>
+<p><img src="/images/yolo/K12500.JPG" alt="K12500"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1367,15 +1367,15 @@ yolo_detect<span class="token punctuation">(</span>pathIn<span class="token punc
                 <a href="/2021/08/31/test/">
                     <div class="card-image">
                         
-                        <img src="/images/K12500.JPG" class="responsive-img" alt="无人机目标检测">
+                        <img src="/images/1.jpg" class="responsive-img" alt="XGBoost">
                         
-                        <span class="card-title">无人机目标检测</span>
+                        <span class="card-title">XGBoost</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            YOLO.
+                            XGBoost
                         
                     </div>
                     <div class="publish-info">
@@ -1386,8 +1386,8 @@ yolo_detect<span class="token punctuation">(</span>pathIn<span class="token punc
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/机器视觉/" class="post-category" target="_blank">
-                                    机器视觉
+                            <a href="/categories/机器学习/" class="post-category" target="_blank">
+                                    机器学习
                                 </a>
                             
                             
@@ -1401,8 +1401,8 @@ yolo_detect<span class="token punctuation">(</span>pathIn<span class="token punc
                         <span class="chip bg-color">Python</span>
                     </a>
                     
-                    <a href="/tags/YOLO/" target="_blank">
-                        <span class="chip bg-color">YOLO</span>
+                    <a href="/tags/XGBoost/" target="_blank">
+                        <span class="chip bg-color">XGBoost</span>
                     </a>
                     
                 </div>
