@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://byq-luo.github.io/"/>
-  <updated>2021-08-31T02:24:18.400Z</updated>
+  <updated>2021-08-31T02:44:01.267Z</updated>
   <id>https://byq-luo.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>无人机目标检测</title>
+    <link href="https://byq-luo.github.io/2021/08/31/yolo/"/>
+    <id>https://byq-luo.github.io/2021/08/31/yolo/</id>
+    <published>2021-08-31T02:43:00.000Z</published>
+    <updated>2021-08-31T02:44:01.267Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;目标检测&quot;&gt;&lt;a href=&quot;#目标检测&quot; class=&quot;headerlink&quot; title=&quot;目标检测&quot;&gt;&lt;/a&gt;目标检测&lt;/h1&gt;&lt;p&gt;目前，基于深度学习(deep
+        
+      
+    
+    </summary>
+    
+      <category term="机器视觉" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="YOLO" scheme="https://byq-luo.github.io/tags/YOLO/"/>
+    
+  </entry>
   
   <entry>
     <title>XGBoost</title>
@@ -45,34 +73,6 @@
   </entry>
   
   <entry>
-    <title>无人机目标检测</title>
-    <link href="https://byq-luo.github.io/2021/08/31/yolo/"/>
-    <id>https://byq-luo.github.io/2021/08/31/yolo/</id>
-    <published>2021-08-31T02:05:00.000Z</published>
-    <updated>2021-08-31T02:22:13.101Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;目标检测&quot;&gt;&lt;a href=&quot;#目标检测&quot; class=&quot;headerlink&quot; title=&quot;目标检测&quot;&gt;&lt;/a&gt;目标检测&lt;/h1&gt;&lt;p&gt;目前，基于深度学习(deep
-        
-      
-    
-    </summary>
-    
-      <category term="机器视觉" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89/"/>
-    
-    
-      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
-    
-      <category term="YOLO" scheme="https://byq-luo.github.io/tags/YOLO/"/>
-    
-  </entry>
-  
-  <entry>
     <title>内嵌视频测试！</title>
     <link href="https://byq-luo.github.io/2019/09/06/sp/"/>
     <id>https://byq-luo.github.io/2019/09/06/sp/</id>
@@ -94,9 +94,9 @@
       <category term="github" scheme="https://byq-luo.github.io/categories/github/"/>
     
     
-      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
-    
       <category term="Pandas" scheme="https://byq-luo.github.io/tags/Pandas/"/>
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
     
       <category term="Matplotlib" scheme="https://byq-luo.github.io/tags/Matplotlib/"/>
     
@@ -158,9 +158,9 @@
       <category term="python体系" scheme="https://byq-luo.github.io/categories/python%E4%BD%93%E7%B3%BB/"/>
     
     
-      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
-    
       <category term="Pandas" scheme="https://byq-luo.github.io/tags/Pandas/"/>
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
     
   </entry>
   
@@ -274,9 +274,9 @@
       <category term="机器学习" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Keras" scheme="https://byq-luo.github.io/tags/Keras/"/>
-    
       <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="Keras" scheme="https://byq-luo.github.io/tags/Keras/"/>
     
   </entry>
   
@@ -330,9 +330,9 @@
       <category term="机器学习" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Keras" scheme="https://byq-luo.github.io/tags/Keras/"/>
-    
       <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="Keras" scheme="https://byq-luo.github.io/tags/Keras/"/>
     
   </entry>
   
