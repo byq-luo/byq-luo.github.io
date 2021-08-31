@@ -6,10 +6,10 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="ts, traffic safety,ITS,Machine learning,Python,智慧交通，交通安全">
+    <meta name="keywords" content="无人机目标检测, traffic safety,ITS,Machine learning,Python,智慧交通，交通安全">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
-    <meta name="description" content="About Keras modelsThere are two types of models available in Keras: the Sequential model and the Model class used with f">
+    <meta name="description" content="YOLOThis page contains a curated list of examples, tutorials, blogs about XGBoost usecases.It is inspired by awesome-MXN">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>ts | Machine L@Traffic</title>
+    <title>无人机目标检测 | Machine L@Traffic</title>
     <link rel="icon" type="image/png" href="/traffic.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -602,13 +602,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/K12500.JPG')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        ts
+                        无人机目标检测
                     </div>
                 </div>
             </div>
@@ -635,8 +635,8 @@
                                 <span class="chip bg-color">Python</span>
                             </a>
                         
-                            <a href="/tags/Keras/" target="_blank">
-                                <span class="chip bg-color">Keras</span>
+                            <a href="/tags/YOLO/" target="_blank">
+                                <span class="chip bg-color">YOLO</span>
                             </a>
                         
                     </div>
@@ -647,8 +647,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/机器学习/" class="post-category" target="_blank">
-                                机器学习
+                            <a href="/categories/机器视觉/" class="post-category" target="_blank">
+                                机器视觉
                             </a>
                         
                     </div>
@@ -659,7 +659,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-08-21
+                    2021-08-31
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -673,14 +673,14 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        341
+                        937
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        2 分
+                        5 分
                     </div>
                     
                 
@@ -697,36 +697,121 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="About-Keras-models"><a href="#About-Keras-models" class="headerlink" title="About Keras models"></a>About Keras models</h1><p>There are two types of models available in Keras: <a href="/models/sequential">the Sequential model</a> and <a href="/models/model">the Model class used with functional API</a>.</p>
-<p>These models have a number of methods in common:</p>
+                <h1 id="YOLO"><a href="#YOLO" class="headerlink" title="YOLO"></a>YOLO</h1><p>This page contains a curated list of examples, tutorials, blogs about XGBoost usecases.<br>It is inspired by <a href="https://github.com/dmlc/mxnet/blob/master/example/README.md" target="_blank" rel="noopener">awesome-MXNet</a>,<br><a href="https://github.com/ziadoz/awesome-php" target="_blank" rel="noopener">awesome-php</a> and <a href="https://github.com/josephmisiti/awesome-machine-learning" target="_blank" rel="noopener">awesome-machine-learning</a>.</p>
+<p>Please send a pull request if you find things that belongs to here.</p>
+<h2 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h2><ul>
+<li><a href="#code-examples">Code Examples</a><ul>
+<li><a href="#features-walkthrough">Features Walkthrough</a></li>
+<li><a href="#basic-examples-by-tasks">Basic Examples by Tasks</a></li>
+<li><a href="#benchmarks">Benchmarks</a></li>
+</ul>
+</li>
+<li><a href="#machine-learning-challenge-winning-solutions">Machine Learning Challenge Winning Solutions</a></li>
+<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#usecases">Usecases</a></li>
+<li><a href="#tools-using-xgboost">Tools using XGBoost</a></li>
+<li><a href="#awards">Awards</a></li>
+<li><a href="#windows-binaries">Windows Binaries</a></li>
+</ul>
+<h2 id="Code-Examples"><a href="#Code-Examples" class="headerlink" title="Code Examples"></a>Code Examples</h2><h3 id="Features-Walkthrough"><a href="#Features-Walkthrough" class="headerlink" title="Features Walkthrough"></a>Features Walkthrough</h3><p>This is a list of short codes introducing different functionalities of xgboost packages.</p>
 <ul>
-<li><p><code>model.summary()</code>: prints a summary representation of your model. Shortcut for <a href="/utils/#print_summary">utils.print_summary</a></p>
+<li>Basic walkthrough of packages<br><a href="guide-python/basic_walkthrough.py">python</a><br><a href="../R-package/demo/basic_walkthrough.R">R</a><br><a href="https://github.com/antinucleon/XGBoost.jl/blob/master/demo/basic_walkthrough.jl" target="_blank" rel="noopener">Julia</a><br><a href="https://github.com/bpachev/xgboost-php/blob/master/demo/titanic_demo.php" target="_blank" rel="noopener">PHP</a></li>
+<li>Customize loss function, and evaluation metric<br><a href="guide-python/custom_objective.py">python</a><br><a href="../R-package/demo/custom_objective.R">R</a><br><a href="https://github.com/antinucleon/XGBoost.jl/blob/master/demo/custom_objective.jl" target="_blank" rel="noopener">Julia</a></li>
+<li>Boosting from existing prediction<br><a href="guide-python/boost_from_prediction.py">python</a><br><a href="../R-package/demo/boost_from_prediction.R">R</a><br><a href="https://github.com/antinucleon/XGBoost.jl/blob/master/demo/boost_from_prediction.jl" target="_blank" rel="noopener">Julia</a></li>
+<li>Predicting using first n trees<br><a href="guide-python/predict_first_ntree.py">python</a><br><a href="../R-package/demo/predict_first_ntree.R">R</a><br><a href="https://github.com/antinucleon/XGBoost.jl/blob/master/demo/predict_first_ntree.jl" target="_blank" rel="noopener">Julia</a></li>
+<li>Generalized Linear Model<br><a href="guide-python/generalized_linear_model.py">python</a><br><a href="../R-package/demo/generalized_linear_model.R">R</a><br><a href="https://github.com/antinucleon/XGBoost.jl/blob/master/demo/generalized_linear_model.jl" target="_blank" rel="noopener">Julia</a></li>
+<li>Cross validation<br><a href="guide-python/cross_validation.py">python</a><br><a href="../R-package/demo/cross_validation.R">R</a><br><a href="https://github.com/antinucleon/XGBoost.jl/blob/master/demo/cross_validation.jl" target="_blank" rel="noopener">Julia</a></li>
+<li>Predicting leaf indices<br><a href="guide-python/predict_leaf_indices.py">python</a><br><a href="../R-package/demo/predict_leaf_indices.R">R</a></li>
+</ul>
+<h3 id="Basic-Examples-by-Tasks"><a href="#Basic-Examples-by-Tasks" class="headerlink" title="Basic Examples by Tasks"></a>Basic Examples by Tasks</h3><p>Most of examples in this section are based on CLI or python version.<br>However, the parameter settings can be applied to all versions</p>
+<ul>
+<li><a href="binary_classification">Binary classification</a></li>
+<li><a href="multiclass_classification">Multiclass classification</a></li>
+<li><a href="regression">Regression</a></li>
+<li><a href="rank">Learning to Rank</a></li>
+</ul>
+<h3 id="Benchmarks"><a href="#Benchmarks" class="headerlink" title="Benchmarks"></a>Benchmarks</h3><ul>
+<li><a href="kaggle-higgs">Starter script for Kaggle Higgs Boson</a></li>
+<li><a href="https://github.com/daxiongshu/kaggle-tradeshift-winning-solution" target="_blank" rel="noopener">Kaggle Tradeshift winning solution by daxiongshu</a></li>
+<li><a href="https://github.com/szilard/benchm-ml#boosting-gradient-boosted-treesgradient-boosting-machines" target="_blank" rel="noopener">Benchmarking the most commonly used open source tools for binary classification</a></li>
+</ul>
+<h2 id="Machine-Learning-Challenge-Winning-Solutions"><a href="#Machine-Learning-Challenge-Winning-Solutions" class="headerlink" title="Machine Learning Challenge Winning Solutions"></a>Machine Learning Challenge Winning Solutions</h2><p>XGBoost is extensively used by machine learning practitioners to create state of art data science solutions,<br>this is a list of machine learning winning solutions with XGBoost.<br>Please send pull requests if you find ones that are missing here.</p>
+<ul>
+<li>Maksims Volkovs, Guangwei Yu and Tomi Poutanen, 1st place of the <a href="http://2017.recsyschallenge.com/" target="_blank" rel="noopener">2017 ACM RecSys challenge</a>. Link to <a href="http://www.cs.toronto.edu/~mvolkovs/recsys2017_challenge.pdf" target="_blank" rel="noopener">paper</a>.</li>
+<li>Vlad Sandulescu, Mihai Chiru, 1st place of the <a href="https://kddcup2016.azurewebsites.net" target="_blank" rel="noopener">KDD Cup 2016 competition</a>. Link to <a href="http://arxiv.org/abs/1609.02728" target="_blank" rel="noopener">the arxiv paper</a>.</li>
+<li>Marios Michailidis, Mathias Müller and HJ van Veen, 1st place of the <a href="https://www.kaggle.com/c/dato-native" target="_blank" rel="noopener">Dato Truely Native? competition</a>. Link to <a href="http://blog.kaggle.com/2015/12/03/dato-winners-interview-1st-place-mad-professors/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+<li>Vlad Mironov, Alexander Guschin, 1st place of the <a href="https://www.kaggle.com/c/flavours-of-physics" target="_blank" rel="noopener">CERN LHCb experiment Flavour of Physics competition</a>. Link to <a href="http://blog.kaggle.com/2015/11/30/flavour-of-physics-technical-write-up-1st-place-go-polar-bears/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+<li>Josef Slavicek, 3rd place of the <a href="https://www.kaggle.com/c/flavours-of-physics" target="_blank" rel="noopener">CERN LHCb experiment Flavour of Physics competition</a>. Link to <a href="http://blog.kaggle.com/2015/11/23/flavour-of-physics-winners-interview-3rd-place-josef-slavicek/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+<li>Mario Filho, Josef Feigl, Lucas, Gilberto, 1st place of the <a href="https://www.kaggle.com/c/caterpillar-tube-pricing" target="_blank" rel="noopener">Caterpillar Tube Pricing competition</a>. Link to <a href="http://blog.kaggle.com/2015/09/22/caterpillar-winners-interview-1st-place-gilberto-josef-leustagos-mario/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+<li>Qingchen Wang, 1st place of the <a href="https://www.kaggle.com/c/liberty-mutual-group-property-inspection-prediction" target="_blank" rel="noopener">Liberty Mutual Property Inspection</a>. Link to <a href="http://blog.kaggle.com/2015/09/28/liberty-mutual-property-inspection-winners-interview-qingchen-wang/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+<li>Chenglong Chen, 1st place of the <a href="https://www.kaggle.com/c/crowdflower-search-relevance" target="_blank" rel="noopener">Crowdflower Search Results Relevance</a>. Link to <a href="https://www.kaggle.com/c/crowdflower-search-relevance/forums/t/15186/1st-place-winner-solution-chenglong-chen/" target="_blank" rel="noopener">the winning solution</a>.</li>
+<li>Alexandre Barachant (“Cat”) and Rafał Cycoń (“Dog”), 1st place of the <a href="https://www.kaggle.com/c/grasp-and-lift-eeg-detection" target="_blank" rel="noopener">Grasp-and-Lift EEG Detection</a>. Link to <a href="http://blog.kaggle.com/2015/10/12/grasp-and-lift-eeg-winners-interview-1st-place-cat-dog/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+<li>Halla Yang, 2nd place of the <a href="https://www.kaggle.com/c/coupon-purchase-prediction" target="_blank" rel="noopener">Recruit Coupon Purchase Prediction Challenge</a>. Link to <a href="http://blog.kaggle.com/2015/10/21/recruit-coupon-purchase-winners-interview-2nd-place-halla-yang/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+<li>Owen Zhang, 1st place of the <a href="https://www.kaggle.com/c/avito-context-ad-clicks" target="_blank" rel="noopener">Avito Context Ad Clicks competition</a>. Link to <a href="http://blog.kaggle.com/2015/08/26/avito-winners-interview-1st-place-owen-zhang/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+<li>Keiichi Kuroyanagi, 2nd place of the <a href="https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings" target="_blank" rel="noopener">Airbnb New User Bookings</a>. Link to <a href="http://blog.kaggle.com/2016/03/17/airbnb-new-user-bookings-winners-interview-2nd-place-keiichi-kuroyanagi-keiku/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+<li>Marios Michailidis, Mathias Müller and Ning Situ, 1st place <a href="https://www.kaggle.com/c/homesite-quote-conversion" target="_blank" rel="noopener">Homesite Quote Conversion</a>. Link to <a href="http://blog.kaggle.com/2016/04/08/homesite-quote-conversion-winners-write-up-1st-place-kazanova-faron-clobber/" target="_blank" rel="noopener">the Kaggle interview</a>.</li>
+</ul>
+<h2 id="Talks"><a href="#Talks" class="headerlink" title="Talks"></a>Talks</h2><ul>
+<li><a href="http://datascience.la/xgboost-workshop-and-meetup-talk-with-tianqi-chen/" target="_blank" rel="noopener">XGBoost: A Scalable Tree Boosting System</a> (video+slides) by Tianqi Chen at the Los Angeles Data Science meetup</li>
+</ul>
+<h2 id="Tutorials"><a href="#Tutorials" class="headerlink" title="Tutorials"></a>Tutorials</h2><ul>
+<li><a href="https://www.qubole.com/blog/machine-learning-xgboost-qubole-spark-cluster/" target="_blank" rel="noopener">Machine Learning with XGBoost on Qubole Spark Cluster</a></li>
+<li><a href="https://xgboost.readthedocs.org/en/latest/R-package/index.html#tutorials" target="_blank" rel="noopener">XGBoost Official RMarkdown Tutorials</a></li>
+<li><a href="http://dmlc.ml/rstats/2016/03/10/xgboost.html" target="_blank" rel="noopener">An Introduction to XGBoost R Package</a> by Tong He</li>
+<li><a href="http://www.slideshare.net/odsc/owen-zhangopen-sourcetoolsanddscompetitions1" target="_blank" rel="noopener">Open Source Tools &amp; Data Science Competitions</a> by Owen Zhang - XGBoost parameter tuning tips</li>
+</ul>
+<ul>
+<li><a href="http://fr.slideshare.net/MichaelBENESTY/feature-importance-analysis-with-xgboost-in-tax-audit" target="_blank" rel="noopener">Feature Importance Analysis with XGBoost in Tax audit</a></li>
+<li><a href="http://no2147483647.wordpress.com/2014/09/17/winning-solution-of-kaggle-higgs-competition-what-a-single-model-can-do/" target="_blank" rel="noopener">Winning solution of Kaggle Higgs competition: what a single model can do</a></li>
+</ul>
+<ul>
+<li><p><a href="http://www.slideshare.net/ShangxuanZhang/xgboost" target="_blank" rel="noopener">XGBoost - eXtreme Gradient Boosting</a> by Tong He</p>
 </li>
-<li><p><code>model.get_config()</code>: returns a dictionary containing the configuration of the model. The model can be reinstantiated from its config via:</p>
-<pre class=" language-python"><code class="language-python">config <span class="token operator">=</span> model<span class="token punctuation">.</span>get_config<span class="token punctuation">(</span><span class="token punctuation">)</span>
-model <span class="token operator">=</span> Model<span class="token punctuation">.</span>from_config<span class="token punctuation">(</span>config<span class="token punctuation">)</span>
-<span class="token comment" spellcheck="true"># or, for Sequential:</span>
-model <span class="token operator">=</span> Sequential<span class="token punctuation">.</span>from_config<span class="token punctuation">(</span>config<span class="token punctuation">)</span></code></pre>
+<li><p><a href="http://www.analyticsvidhya.com/blog/2016/01/xgboost-algorithm-easy-steps/" target="_blank" rel="noopener">How to use XGBoost algorithm in R in easy steps</a> by TAVISH SRIVASTAVA (<a href="https://segmentfault.com/a/1190000004421821" target="_blank" rel="noopener">Chinese Translation 中文翻译</a> by <a href="https://segmentfault.com/u/harryprince" target="_blank" rel="noopener">HarryZhu</a>)</p>
 </li>
-<li><p><code>model.get_weights()</code>: returns a list of all weight tensors in the model, as Numpy arrays.</p>
+<li><p><a href="http://www.analyticsvidhya.com/blog/2015/12/kaggle-solution-cooking-text-mining-competition/" target="_blank" rel="noopener">Kaggle Solution: What’s Cooking ? (Text Mining Competition)</a> by MANISH SARASWAT</p>
 </li>
-<li><p><code>model.set_weights(weights)</code>: sets the values of the weights of the model, from a list of Numpy arrays. The arrays in the list should have the same shape as those returned by <code>get_weights()</code>.</p>
+<li><p>Better Optimization with Repeated Cross Validation and the XGBoost model - Machine Learning with R) by Manuel Amunategui (<a href="https://www.youtube.com/watch?v=Og7CGAfSr_Y" target="_blank" rel="noopener">Youtube Link</a> (<a href="https://github.com/amunategui/BetterCrossValidation" target="_blank" rel="noopener">Github Link</a>)</p>
 </li>
-<li><p><code>model.to_json()</code>: returns a representation of the model as a JSON string. Note that the representation does not include the weights, only the architecture. You can reinstantiate the same model (with reinitialized weights) from the JSON string via:</p>
-<pre class=" language-python"><code class="language-python"><span class="token keyword">from</span> keras<span class="token punctuation">.</span>models <span class="token keyword">import</span> model_from_json
-</code></pre>
+<li><p><a href="https://www.kaggle.com/khozzy/rossmann-store-sales/xgboost-parameter-tuning-template/run/90168/notebook" target="_blank" rel="noopener">XGBoost Rossman Parameter Tuning</a> by <a href="https://www.kaggle.com/khozzy" target="_blank" rel="noopener">Norbert Kozlowski</a></p>
+</li>
+<li><p><a href="http://www.slideshare.net/DataRobot/featurizing-log-data-before-xgboost" target="_blank" rel="noopener">Featurizing log data before XGBoost</a> by Xavier Conort, Owen Zhang etc</p>
+</li>
+<li><p><a href="http://blog.kaggle.com/2015/07/21/west-nile-virus-competition-benchmarks-tutorials/" target="_blank" rel="noopener">West Nile Virus Competition Benchmarks &amp; Tutorials</a> by <a href="http://blog.kaggle.com/author/annamontoya/" target="_blank" rel="noopener">Anna Montoya</a></p>
+</li>
+<li><p><a href="https://www.kaggle.com/binghsu/predict-west-nile-virus/xgboost-starter-code-python-0-69" target="_blank" rel="noopener">Ensemble Decision Tree with XGBoost</a> by <a href="https://www.kaggle.com/binghsu" target="_blank" rel="noopener">Bing Xu</a></p>
+</li>
+<li><p><a href="http://startup.ml/blog/xgboost" target="_blank" rel="noopener">Notes on eXtreme Gradient Boosting</a> by ARSHAK NAVRUZYAN (<a href="https://github.com/startupml/koan/blob/master/eXtreme%20Gradient%20Boosting.ipynb" target="_blank" rel="noopener">iPython Notebook</a>)</p>
+</li>
+<li><p><a href="http://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/" target="_blank" rel="noopener">Complete Guide to Parameter Tuning in XGBoost</a> by Aarshay Jain</p>
+</li>
+<li><p><a href="http://education.parrotprediction.teachable.com/courses/practical-xgboost-in-python" target="_blank" rel="noopener">Practical XGBoost in Python online course</a> by Parrot Prediction</p>
+</li>
+<li><p><a href="http://www.elenacuoco.com/2016/10/10/scala-spark-xgboost-classification/" target="_blank" rel="noopener">Spark and XGBoost using Scala</a> by Elena Cuoco</p>
+<h2 id="Usecases"><a href="#Usecases" class="headerlink" title="Usecases"></a>Usecases</h2><p>If you have particular usecase of xgboost that you would like to highlight.<br>Send a PR to add a one sentence description:)</p>
+</li>
+<li><p>XGBoost is used in <a href="https://www.kaggle.com/scripts" target="_blank" rel="noopener">Kaggle Script</a> to solve data science challenges.</p>
+</li>
+<li><p><a href="http://docs.seldon.io/iris-demo.html" target="_blank" rel="noopener">Seldon predictive service powered by XGBoost</a></p>
+</li>
+<li><p>XGBoost Distributed is used in <a href="https://yq.aliyun.com/articles/6355" target="_blank" rel="noopener">ODPS Cloud Service by Alibaba</a> (in Chinese)</p>
+</li>
+<li><p>XGBoost is incoporated as part of <a href="https://dato.com/products/create/" target="_blank" rel="noopener">Graphlab Create</a> for scalable machine learning.</p>
+</li>
+<li><p><a href="https://www.52cs.org" target="_blank" rel="noopener">Hanjing Su</a> from Tencent data platform team: “We use distributed XGBoost for click through prediction in wechat shopping and lookalikes. The problems involve hundreds millions of users and thousands of features. XGBoost is cleanly designed and can be easily integrated into our production environment, reducing our cost in developments.”</p>
+</li>
+<li><p><a href="https://github.com/CNevd" target="_blank" rel="noopener">CNevd</a> from autohome.com ad platform team: “Distributed XGBoost is used for click through rate prediction in our display advertising, XGBoost is highly efficient and flexible and can be easily used on our distributed platform, our ctr made a great improvement with hundred millions samples and millions features due to this awesome XGBoost”</p>
 </li>
 </ul>
-<p>json_string = model.to_json()<br>model = model_from_json(json_string)</p>
-<pre><code>- `model.to_yaml()`: returns a representation of the model as a YAML string. Note that the representation does not include the weights, only the architecture. You can reinstantiate the same model (with reinitialized weights) from the YAML string via:
-```python
-from keras.models import model_from_yaml
-
-yaml_string = model.to_yaml()
-model = model_from_yaml(yaml_string)</code></pre><ul>
-<li><code>model.save_weights(filepath)</code>: saves the weights of the model as a HDF5 file.</li>
-<li><code>model.load_weights(filepath, by_name=False)</code>: loads the weights of the model from a HDF5 file (created by <code>save_weights</code>). By default, the architecture is expected to be unchanged. To load weights into a different architecture (with some layers in common), use <code>by_name=True</code> to load only those layers with the same name.</li>
+<h2 id="Tools-using-XGBoost"><a href="#Tools-using-XGBoost" class="headerlink" title="Tools using XGBoost"></a>Tools using XGBoost</h2><ul>
+<li><a href="https://github.com/mpearmain/BayesBoost" target="_blank" rel="noopener">BayesBoost</a> - Bayesian Optimization using xgboost and sklearn API</li>
+<li><a href="https://github.com/vatsan/gp_xgboost_gridsearch" target="_blank" rel="noopener">gp_xgboost_gridsearch</a> - In-database parallel grid-search for XGBoost on <a href="https://github.com/greenplum-db/gpdb" target="_blank" rel="noopener">Greenplum</a> using PL/Python</li>
+<li><a href="https://github.com/rhiever/tpot" target="_blank" rel="noopener">tpot</a> - A Python tool that automatically creates and optimizes machine learning pipelines using genetic programming.</li>
 </ul>
+<h2 id="Awards"><a href="#Awards" class="headerlink" title="Awards"></a>Awards</h2><ul>
+<li><a href="http://stat-computing.org/awards/jmc/winners.html" target="_blank" rel="noopener">John Chambers Award</a> - 2016 Winner: XGBoost R Package, by Tong He (Simon Fraser University) and Tianqi Chen (University of Washington)</li>
+</ul>
+<h2 id="Windows-Binaries"><a href="#Windows-Binaries" class="headerlink" title="Windows Binaries"></a>Windows Binaries</h2><p>Unofficial windows binaries and instructions on how to use them are hosted on <a href="http://www.picnet.com.au/blogs/guido/post/2016/09/22/xgboost-windows-x64-binaries-for-download/" target="_blank" rel="noopener">Guido Tapia’s blog</a></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -895,7 +980,7 @@ model = model_from_yaml(yaml_string)</code></pre><ul>
                     </span>
                     <a href="https://byq-luo.github.io" class="b-link-green">Machine L@Traffic</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2019/08/21/ts/" class="b-link-green">ts</a>
+                    <a href="/2021/08/31/test/" class="b-link-green">无人机目标检测</a>
                 </p>
             </div>
 
@@ -918,7 +1003,7 @@ model = model_from_yaml(yaml_string)</code></pre><ul>
         repo: 'byq-luo.github.io',
         owner: 'byq-luo',
         admin: ["luozb"],
-        id: '2019/08/21/ts/',
+        id: '2021/08/31/test/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1237,40 +1322,42 @@ model = model_from_yaml(yaml_string)</code></pre><ul>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2019/08/23/matplotlib-hui-tu/">
+                <a href="/2021/08/31/test/">
                     <div class="card-image">
                         
-                        <img src="/images/4.jpg" class="responsive-img" alt="matplotlib绘图">
+                        <img src="/images/K12500.JPG" class="responsive-img" alt="无人机目标检测">
                         
-                        <span class="card-title">matplotlib绘图</span>
+                        <span class="card-title">无人机目标检测</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Keras models.
+                            YOLO.
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-23
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-08-31
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/python绘图/" class="post-category" target="_blank">
-                                    python绘图
+                            <a href="/categories/机器视觉/" class="post-category" target="_blank">
+                                    机器视觉
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1278,8 +1365,8 @@ model = model_from_yaml(yaml_string)</code></pre><ul>
                         <span class="chip bg-color">Python</span>
                     </a>
                     
-                    <a href="/tags/Matplotlib/" target="_blank">
-                        <span class="chip bg-color">Matplotlib</span>
+                    <a href="/tags/YOLO/" target="_blank">
+                        <span class="chip bg-color">YOLO</span>
                     </a>
                     
                 </div>
@@ -1293,30 +1380,30 @@ model = model_from_yaml(yaml_string)</code></pre><ul>
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/08/21/test3/">
+                <a href="/2021/08/31/yolo/">
                     <div class="card-image">
                         
-                        <img src="/images/3.jpg" class="responsive-img" alt="python 基础学习记录">
+                        <img src="/images/K12500.JPG" class="responsive-img" alt="无人机目标检测">
                         
-                        <span class="card-title">python 基础学习记录</span>
+                        <span class="card-title">无人机目标检测</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Keras models.
+                            YOLO.
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-21
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-08-31
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/python基础/" class="post-category" target="_blank">
-                                    python基础
+                            <a href="/categories/机器视觉/" class="post-category" target="_blank">
+                                    机器视觉
                                 </a>
                             
                             
@@ -1330,8 +1417,8 @@ model = model_from_yaml(yaml_string)</code></pre><ul>
                         <span class="chip bg-color">Python</span>
                     </a>
                     
-                    <a href="/tags/Markdown/" target="_blank">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/YOLO/" target="_blank">
+                        <span class="chip bg-color">YOLO</span>
                     </a>
                     
                 </div>

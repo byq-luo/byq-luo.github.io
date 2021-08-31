@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://byq-luo.github.io/"/>
-  <updated>2021-08-31T01:40:50.769Z</updated>
+  <updated>2021-08-31T01:55:29.198Z</updated>
   <id>https://byq-luo.github.io/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>无人机目标检测</title>
+    <link href="https://byq-luo.github.io/2021/08/31/test/"/>
+    <id>https://byq-luo.github.io/2021/08/31/test/</id>
+    <published>2021-08-31T02:05:00.000Z</published>
+    <updated>2021-08-31T01:55:29.198Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;YOLO&quot;&gt;&lt;a href=&quot;#YOLO&quot; class=&quot;headerlink&quot; title=&quot;YOLO&quot;&gt;&lt;/a&gt;YOLO&lt;/h1&gt;&lt;p&gt;This page contains a curated list of examples, tutorials,
+        
+      
+    
+    </summary>
+    
+      <category term="机器视觉" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="YOLO" scheme="https://byq-luo.github.io/tags/YOLO/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无人机目标检测</title>
+    <link href="https://byq-luo.github.io/2021/08/31/yolo/"/>
+    <id>https://byq-luo.github.io/2021/08/31/yolo/</id>
+    <published>2021-08-31T02:05:00.000Z</published>
+    <updated>2021-08-31T02:09:24.119Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;目标检测&quot;&gt;&lt;a href=&quot;#目标检测&quot; class=&quot;headerlink&quot; title=&quot;目标检测&quot;&gt;&lt;/a&gt;目标检测&lt;/h1&gt;&lt;p&gt;目前，基于深度学习(deep
+        
+      
+    
+    </summary>
+    
+      <category term="机器视觉" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89/"/>
+    
+    
+      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
+    
+      <category term="YOLO" scheme="https://byq-luo.github.io/tags/YOLO/"/>
+    
+  </entry>
   
   <entry>
     <title>内嵌视频测试！</title>
@@ -277,34 +333,6 @@
       <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
     
       <category term="Keras" scheme="https://byq-luo.github.io/tags/Keras/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>XGBOOST introduction</title>
-    <link href="https://byq-luo.github.io/2019/08/21/test/"/>
-    <id>https://byq-luo.github.io/2019/08/21/test/</id>
-    <published>2019-08-21T01:25:00.000Z</published>
-    <updated>2019-08-21T13:22:56.078Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Awesome-XGBoost&quot;&gt;&lt;a href=&quot;#Awesome-XGBoost&quot; class=&quot;headerlink&quot; title=&quot;Awesome XGBoost&quot;&gt;&lt;/a&gt;Awesome XGBoost&lt;/h1&gt;&lt;p&gt;This page
-        
-      
-    
-    </summary>
-    
-      <category term="机器学习" scheme="https://byq-luo.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="Python" scheme="https://byq-luo.github.io/tags/Python/"/>
-    
-      <category term="XGBoost" scheme="https://byq-luo.github.io/tags/XGBoost/"/>
     
   </entry>
   
